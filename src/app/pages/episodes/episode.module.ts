@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 
-import {DashboardRoutingModule} from './dashboard-routing.module';
+import {EpisodeRoutingModule} from './episode-routing.module';
 
-import {DashboardComponent} from './dashboard.component';
+import {EpisodeComponent} from './episode.component';
 import {CommonModule} from "@angular/common";
 import {NzButtonModule} from "ng-zorro-antd/button";
 import {NzTypographyModule} from "ng-zorro-antd/typography";
@@ -11,14 +11,14 @@ import {RouterModule} from "@angular/router";
 
 @NgModule({
   imports: [
-    DashboardRoutingModule,
+    EpisodeRoutingModule,
     CommonModule,
     NzButtonModule,
     RouterModule,
     NzTypographyModule
   ],
-  declarations: [DashboardComponent],
-  exports: [DashboardComponent]
+  declarations: [EpisodeComponent],
+  exports: [EpisodeComponent]
 })
-export class DashboardModule {
+export class EpisodeModule {
 }
