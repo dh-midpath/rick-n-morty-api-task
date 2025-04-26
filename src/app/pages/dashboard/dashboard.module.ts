@@ -14,8 +14,8 @@ import {RouterModule} from "@angular/router";
     DashboardRoutingModule,
     CommonModule,
     NzButtonModule,
+    NzTypographyModule,
     RouterModule,
-    NzTypographyModule
   ],
   declarations: [DashboardComponent],
   exports: [DashboardComponent]

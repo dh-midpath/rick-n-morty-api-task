@@ -1,1 +1,27 @@
-<router-outlet></router-outlet>
+<article class="dc__container">
+  <section class="dc__navbar">
+    <section class="dc__navbar-logo">
+      <img src="assets/images/favicon-32x32.png">
+      <h2 nz-typography>Ng Zorro</h2>
+    </section>
+
+    <nav class="dc__navbar-buttons">
+      <a routerLink="/home" nz-button nzType="text">Home</a>
+      <a routerLink="/characters" nz-button nzType="text">Characters</a>
+      <a routerLink="/episodes" nz-button nzType="text">Episodes</a>
+      <a routerLink="/locations" nz-button nzType="text">Locations</a>
+      <a routerLink="/normal1" nz-button nzType="text">Normal 1</a>
+
+      <a
+        class="dc__navbar-buttons-starter"
+        nz-button nzType="primary"
+        routerLink="/normal2"
+        nzShape="round">Normal 2
+      </a>
+    </nav>
+  </section>
+
+  <section class="dc__body">
+    <router-outlet></router-outlet>
+  </section>
+</article>
